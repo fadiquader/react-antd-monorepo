@@ -1,0 +1,35 @@
+// global styles
+@import "./vars.less";
+@import "./utils.less";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+// antd override
+.ant-btn {
+  font-size: @font-size-md;
+}
+.ant-btn-lg {
+  font-size: @font-size-lg;
+}
+.ant-btn-sm {
+  font-size: @font-size-sm;
+}
+a.ant-btn-round.ant-btn-lg {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.ant-form-item-explain, .ant-form-item-extra {
+  margin-bottom: 6px !important;
+  font-size: @font-size-base - 1 !important;
+}
+.ant-spin-blur {
+  filter: blur(2px);
+}
+.ant-input-show-count:after {
+  display: block;
+  color: rgba(0, 0, 0, 0.45);
+  text-align: right;
+  content: attr(data-count);
+}
+

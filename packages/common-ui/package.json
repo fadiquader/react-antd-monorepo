@@ -1,0 +1,22 @@
+{
+  "name": "@univ/common-ui",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "watch": "babel --watch src --out-dir build --source-maps inline --copy-files",
+    "build": "rimraf ./build &&  babel src --out-dir build --source-maps inline --copy-files"
+  },
+  "dependencies": {
+    "antd": "^4.10.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "cross-env": "^6.0.3"
+  }
+}

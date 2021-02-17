@@ -1,0 +1,18 @@
+{
+  "name": "meeopp-frontend",
+  "private": true,
+  "workspaces": [
+    "school-portal",
+    "admin-portal",
+    "packages/*"
+  ],
+  "scripts": {
+    "watch": "./bundle-packages.sh"
+  },
+  "resolutions": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "antd": "^4.10.0"
+  }
+}
